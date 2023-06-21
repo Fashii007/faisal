@@ -1,6 +1,6 @@
 #coding=utf
 
-#YE LOL PE CHART TA 
+#YE  LOL PE CHART TA 
 import uuid
 import os,sys,time,json,random,re,string,platform,base64
 try:
